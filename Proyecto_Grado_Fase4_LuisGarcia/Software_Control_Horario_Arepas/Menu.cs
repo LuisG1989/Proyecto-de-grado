@@ -37,6 +37,7 @@ namespace Software_Control_Horario_Arepas
                     break;
                 case "Domiciliario":
                     registrarIngreso.Visible = true;
+                    RegistrarSalida.Visible = true;
                     ConsultarEmpleados.Visible = false;
                     ConsutarPedido.Visible = true;
                     CrearEmpleado.Visible = false;
@@ -44,6 +45,7 @@ namespace Software_Control_Horario_Arepas
                     break;
                 case "Supervisor":
                     registrarIngreso.Visible = true;
+                    RegistrarSalida.Visible = true;
                     RegistrarSalida.Visible = true;
                     ConsultarEmpleados.Visible = true;
                     ConsutarPedido.Visible = true;
@@ -70,17 +72,21 @@ namespace Software_Control_Horario_Arepas
         {
             empleado.registroIngresoSalidas = new List<IngresoSalida>();
             empleado.registroIngresoSalidas.Add(new IngresoSalida { fechaIngreso = DateTime.Now });
+            MessageBox.Show("Entrada Registrada", "Entrada", MessageBoxButtons.OK);
         }
 
         private void RegistrarSalida_Click(object sender, EventArgs e)
         {
             empleado.registroIngresoSalidas = new List<IngresoSalida>();
             empleado.registroIngresoSalidas.Add(new IngresoSalida { fechaSalida = DateTime.Now });
+            MessageBox.Show("Salida Registrada", "Salida", MessageBoxButtons.OK);
         }
 
         private void CrearPedido_Click(object sender, EventArgs e)
         {
-
+            CrearPedidos crearPedido = new CrearPedidos(empleadosList, ref pedidosList, docEmpleado);
+            crearPedido.Show();
+            this.Hide();
         }
 
         private void ConsutarPedido_Click(object sender, EventArgs e)
@@ -104,8 +110,8 @@ namespace Software_Control_Horario_Arepas
 
         private void Back_Click(object sender, EventArgs e)
         {
-            Menu menu = new Menu(docEmpleado, ref empleadosList);
-            menu.Show();
+            Login inicio = new Login();
+            inicio.Show();
             this.Hide();
         }
     }

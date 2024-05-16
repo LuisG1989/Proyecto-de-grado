@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositories\\Proyecto_Grado_Fase4_LuisGarcia\\Software_Control_Horario_Arepas\\Software_Control_Horario_Arepas.csproj": {}
+    "C:\\Users\\luisg\\Downloads\\pdg\\Proyecto_Grado_Fase4_LuisGarcia\\Software_Control_Horario_Arepas\\Software_Control_Horario_Arepas.csproj": {}
   },
   "projects": {
-    "C:\\Repositories\\Proyecto_Grado_Fase4_LuisGarcia\\Software_Control_Horario_Arepas\\Software_Control_Horario_Arepas.csproj": {
+    "C:\\Users\\luisg\\Downloads\\pdg\\Proyecto_Grado_Fase4_LuisGarcia\\Software_Control_Horario_Arepas\\Software_Control_Horario_Arepas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositories\\Proyecto_Grado_Fase4_LuisGarcia\\Software_Control_Horario_Arepas\\Software_Control_Horario_Arepas.csproj",
+        "projectUniqueName": "C:\\Users\\luisg\\Downloads\\pdg\\Proyecto_Grado_Fase4_LuisGarcia\\Software_Control_Horario_Arepas\\Software_Control_Horario_Arepas.csproj",
         "projectName": "Software_Control_Horario_Arepas",
-        "projectPath": "C:\\Repositories\\Proyecto_Grado_Fase4_LuisGarcia\\Software_Control_Horario_Arepas\\Software_Control_Horario_Arepas.csproj",
-        "packagesPath": "C:\\Users\\nricardoguzman.AMAIISDOM\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositories\\Proyecto_Grado_Fase4_LuisGarcia\\Software_Control_Horario_Arepas\\obj\\",
+        "projectPath": "C:\\Users\\luisg\\Downloads\\pdg\\Proyecto_Grado_Fase4_LuisGarcia\\Software_Control_Horario_Arepas\\Software_Control_Horario_Arepas.csproj",
+        "packagesPath": "C:\\Users\\luisg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luisg\\Downloads\\pdg\\Proyecto_Grado_Fase4_LuisGarcia\\Software_Control_Horario_Arepas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nricardoguzman.AMAIISDOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luisg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,10 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://repository.rnd.amadeus.net/api/nuget/bss-nuget-public": {},
-          "https://repository.rnd.amadeus.net/api/nuget/nugget-built": {},
-          "https://repository.rnd.amadeus.net/api/nuget/nugget-production": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
@@ -43,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -67,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.421\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
